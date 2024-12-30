@@ -14,15 +14,18 @@ header, footer {
 /*The link part, I used flex box to make it appear horizontally */
 .top-head {
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    padding: 20px;
    flex-shrink: 0;
+   align-items: center;
+   margin-left: 8%;
+   gap: 10px;
 }
 ul {
     list-style: none;
     display: flex;
     gap: 15px;
-    margin: 0;
+    margin-right: 8%;
     font-weight: normal;
     font-size: 13px;
     color: #d8cbcb;
@@ -48,9 +51,13 @@ button,
     border-color: #3B82F6;
     margin-top: 3px;
 }
+.logo {
+    display: flex;
+    align-items: center;
+}
 .middle-head {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 10px;
     align-items: center;
     gap: 20px;
@@ -64,6 +71,9 @@ button,
 }
 .awesome {
     max-width: 500px;
+}
+.left {
+    margin-left: 8%;
 }
 /* it ends */
 
