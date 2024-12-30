@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+header, footer {
+   background-color: #1F2937;
+   color: white;
+   padding-bottom: 50px;
+}
+/*The link part, I used flex box to make it appear horizontally */
+.top-head {
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   flex-shrink: 0;
+   align-items: center;
+   margin-left: 8%;
+   gap: 10px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 8%;
+    font-weight: normal;
+    font-size: 13px;
+    color: #d8cbcb;
+}
+/*Top head styling ends */
+
+/* middle head styling begins */
+ h1 {
+    margin: 0;
+}
+.awesome p {
+    color: #d8cbcb;
+    font-size: 13px;
+    margin-top: 5px;
+    display: flex;
+}
+button,
+.sign button{
+    background-color: #3B82F6;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+    border-color: #3B82F6;
+    margin-top: 3px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.middle-head {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    gap: 20px;
+}
+.placeholder {
+    background-color: #6D747D;
+    padding: 50px;
+    margin: 0;
+    font-size: 13px;
+    flex-shrink: 0;
+}
+.awesome {
+    max-width: 500px;
+}
+.left {
+    margin-left: 8%;
+}
+/* it ends */
+
+/* First section styling begins */
+.empty {
+    box-sizing: border-box;
+    border: 2px solid #3B82F6;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+h2 {
+    text-align: center;
+}
+.random {
+    display: flex;
+    justify-content: center;
+}
+.even {
+    padding: 20px;
+    max-width: 150px;
+    text-align: center;
+}
+.subtext {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 3px;
+    color: #8d8686;;
+}
+/*It ends */
+
+/* Second section styling begins */
+.section-2 {
+    background-color: #E5E7EB;
+    padding: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2 p {
+   text-align: center;
+   width: 400px;
+   padding: 0;
+   margin: 10px;
+}
+.quote {
+    font-style: italic;
+    font-size: 20px;
+    color: #8f9192;
+}
+p.owner {
+    font-weight: 600;
+    text-align: right;
+    color: #27303D;
+}
+/* it ends, I used text-align= right to right align the owner of the quote */
+/* The third section begins */
+.section-3 {
+    background-color: #3B82F6;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sign {
+    display: flex;
+    justify-content: space-around;
+}
+.action {
+    color: white;
+    margin-top: 25px;
+}
+.time {
+    font-weight: 700;
+}
+.action p {
+    margin-top: 0;
+    font-size: 13px;
+    color: #dbdfe4;
+}
+.sign button {
+        height: 50px;
+        margin: 15px;
+        border: 1px solid white;
+}
+/* It ends */
+section {
+    flex: 1;
+}
+footer {
+    text-align: center;
+    font-size: 13px;
+    padding: 30px;
+}
